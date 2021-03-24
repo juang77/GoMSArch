@@ -6,9 +6,9 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/juang77/LaikaGoMS/product-service/app/http/routes"
-	"github.com/juang77/LaikaGoMS/product-service/config"
-	db "github.com/juang77/LaikaGoMS/product-service/database"
+	"github.com/juang77/GoMSArch/product-service/app/http/routes"
+	"github.com/juang77/GoMSArch/product-service/config"
+	db "github.com/juang77/GoMSArch/product-service/database"
 	negronilogrus "github.com/meatballhat/negroni-logrus"
 	"github.com/urfave/negroni"
 
