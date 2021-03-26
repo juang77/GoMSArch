@@ -40,3 +40,16 @@ services:
         - "DB_PORT=3306"
         - "DB=laikadblinux"
         - "SECRET_KEY=Juancho"
+    profile:
+        image: profile-service:latest
+        ports:
+            - "5002:5002"
+        restart: always 
+        environment:
+        - "PORT=5002"
+        - "DB_USERNAME=conectapis"
+        - "DB_PASSWORD=Nicolas8032367."
+        - "DB_HOST=192.168.0.13"
+        - "DB_PORT=3306"
+        - "DB=laikadblinux"
+        - "SECRET_KEY=Juancho"
